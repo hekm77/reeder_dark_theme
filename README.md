@@ -1,5 +1,5 @@
 # Reeder Dark Theme
-Reeder inspired theme for [Home Assistant](https://www.home-assistant.io/).
+Reeder inspired theme for [Home Assistant](https://www.home-assistant.io/)
 
 [![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/hekm77/homeassistant-config) 
 
@@ -9,10 +9,12 @@ Reeder inspired theme for [Home Assistant](https://www.home-assistant.io/).
 ## Installation
 ### Manual installation
 1. Add the following code to your `configuration.yaml` file.
-<pre>
+
+```yaml
 frontend:
   themes: !include_dir_merge_named themes
-</pre> 
+```
+
 2. Copy the folder `themes` into your home-assistant folder.
 3. Restart Home Assistant.
 4. Enable the theme in your user profile (bottom left in Home Assistant).
